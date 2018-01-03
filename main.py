@@ -2,7 +2,7 @@ import tkinter
 import obd
 
 obd.logger.setLevel(obd.logging.DEBUG) # enables all debug information
-ports = obd.scan_serial()       # return list of valid USB or RF ports
+ports = obd.scan_serial()       # return list of valid USB or RF ports, update
 print ports
 
 
